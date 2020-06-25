@@ -1,0 +1,18 @@
+[package]
+name = "cipher-mode-demonstration"
+version = "0.1.0"
+authors = ["Trivernis <trivernis@protonmail.com>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+structopt = "0.3.15"
+aes = "0.4.0"
+block-modes = "0.4.0"
+rpassword = "4.0.5"
+sha2 = "0.9.1"
+rand = "0.7.3"
+bmp = "0.5.0"
+png = "0.16.5"
+ctr = "0.4.0"
